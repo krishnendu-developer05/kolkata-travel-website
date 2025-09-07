@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the creative calcutta.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="St_Paul's_Cathedral.jpg" alt="st pauls cathidral" width="24.33%" height="270">
+    <img src="Victoria-Memorial-Kolkata-YtripHD.jpg" alt="victoria memorial" width="24.33%" height="270">
+    <img src="howrah-bridge-howrah-west-bengal-city-1-hero.jpg" alt="" width="24.33%" height="270">
+    <img src="idn museum.jpg" alt="" width="25.33%" height="270">
+    <footer>THE CREATIVE CALCUTTA</footer>
+    <h1>Kolkata Travel Package</h1>
+    <form id="travel-form">
+        <label for=" name">Name:</label>
+        <input type="text" id="name" name="Name" placeholder="Enter Your Name" required>
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender" required>
+            <option value="">select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <label for="nationality">nationality:</label>
+        <select name="nationality" id="nationality" required>
+            <option value="">Nationality</option>
+            <option value="indian">Indian</option>
+            <option value="Foreigner">Foreigner</option>
+        </select>
+        <label for="time slot">Time Slot:</label>
+        <select id="time-slot" name="time-slot" required>
+            <option value="">Select</option>
+            <option value="morning">Morning (9:00 AM - 12:00 PM)</option>
+            <option value="afternoon">Afternoon (1:00 PM - 4:00 PM)</option>
+            <option value="evening">Evening (5:00 PM - 8:00 PM)</option>
+        </select>
+
+        <label for="payment-option">Payment Option:</label>
+        <select id="payment-option" name="payment-option" required>
+            <option value="">Select</option>
+            <option value="credit-card">Credit Card</option>
+            <option value="debit-card">Debit Card</option>
+            <option value="net-banking">Net Banking</option>
+        </select>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <p id="total-cost"></p>
+</body>
+<script src="script.js"></script>
+
+</html>
